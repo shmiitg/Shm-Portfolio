@@ -1,0 +1,38 @@
+.about-container {
+  margin: 10rem auto 0;
+  max-width: 80rem;
+}
+
+.about-me-card {
+  box-shadow: 0 0 15px -5px #1f2235;
+  padding: 3.5rem;
+  color: var(--clr-grey);
+  background: var(--clr-white);
+}
+
+.about-me-content {
+  color: var(--clr-grey);
+  line-height: 25px;
+  letter-spacing: 0.2px;
+}
+
+.highlight-heading {
+  margin: 4rem 0 1rem;
+  font-size: 1.6rem;
+}
+
+.highlight {
+  display: flex;
+  align-items: center;
+}
+
+.highlight-circle {
+  width: 12px;
+  height: 12px;
+  background: var(--clr-secondary);
+}
+
+.highlight-text {
+  margin-left: 1rem;
+  margin-top: 0.5px;
+}

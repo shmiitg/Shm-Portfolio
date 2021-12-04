@@ -1,0 +1,16 @@
+.resume-project-content {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+}
+
+.project-tech {
+  font-weight: 500;
+  font-size: 1.35rem;
+}
+
+.project-info {
+  font-size: 1.2rem;
+  margin-top: 4px;
+  line-height: 1.6rem;
+}
