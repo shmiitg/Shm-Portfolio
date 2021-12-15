@@ -2,7 +2,7 @@ import './Navbar.css';
 import logo from '../images/logo.png';
 
 const Navbar = () => {
-    const navLinks = ['About me', 'Skills', 'Resume', 'Projects', 'Contact me']
+    const navLinks = ['About me', 'Skills', 'Resume', 'Contact me']
 
     return (
         <div className="nav-container">

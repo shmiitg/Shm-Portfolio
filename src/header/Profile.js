@@ -2,21 +2,22 @@ import Navbar from './Navbar'
 import { Link } from 'react-router-dom';
 import Typical from 'react-typical';
 import { RiDoubleQuotesL } from 'react-icons/ri';
+import me from '../images/me.svg'
 import './Profile.css'
 
 const Profile = () => {
     return (
         <div className="profile-container">
             <div className="profile-left">
-                <Navbar />
                 <div className='profile-left-wrapper'>
-                    <div className="profile-details-name">
+                    <Navbar />
+                    <div className="profile-intro">
                         Hi, I'm <span className="highlighted-text">Shubham</span>
                     </div>
-                    <div className="profile-details-role">
+                    <div className="profile-role">
                         <Typical loop={Infinity} steps={["Web Developer", 1000, "Competetive Coder", 1000, "ML Enthusiast", 1000]} />
                     </div>
-                    <div className="profile-role-tagline">
+                    <div className="profile-tagline">
                         <RiDoubleQuotesL />There are two ways to write error-free programs; only the third one works
                     </div>
                     <div className="profile-options">
@@ -33,7 +34,7 @@ const Profile = () => {
                 <div className="profile-bg">
                 </div>
                 <div className="profile-img">
-                    <img src="" alt="" />
+                    <img src={me} alt="" />
                 </div>
             </div>
         </div>

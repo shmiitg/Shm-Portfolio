@@ -6,7 +6,6 @@ import Resume from './resume/Resume';
 import Projects from './projects/Projects';
 import ContactMe from './contact/ContactMe';
 import Collab from './contact/Collab';
-import Platform from './platforms/Platforms'
 import Footer from './footer/Footer';
 
 const Portfolio = () => {
@@ -17,7 +16,6 @@ const Portfolio = () => {
             <Skills />
             <Projects />
             <Collab />
-            <Platform />
             <Resume />
             <ContactMe />
             <Footer />

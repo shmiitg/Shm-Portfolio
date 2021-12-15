@@ -1,14 +1,13 @@
 .nav-container {
   display: flex;
   margin: auto;
-  padding: 5rem 0 3rem 6rem;
-  max-width: 110rem;
+  margin-bottom: 10rem;
   align-items: center;
   justify-content: space-between;
 }
 
 .nav-logo {
-  margin-right: 7rem;
+  margin-right: 5rem;
   width: 4rem;
   height: 5rem;
   cursor: pointer;
@@ -24,7 +23,7 @@
 }
 
 .nav-link {
-  margin-right: 3rem;
+  margin-right: 2.75rem;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--clr-grey);

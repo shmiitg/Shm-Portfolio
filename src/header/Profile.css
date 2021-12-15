@@ -1,22 +1,23 @@
 .profile-container {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.profile-left,
+.profile-right {
+  flex: 1;
 }
 
 /* 
 Profile Left Container
 */
 
-.profile-left {
-  flex-basis: 50%;
-}
-
 .profile-left-wrapper {
-  margin-top: 9rem;
-  padding-left: 6rem;
+  margin-top: 6rem;
+  padding-left: max(8%, 3rem);
 }
 
-.profile-details-name {
+.profile-intro {
   color: var(--clr-grey);
   font-size: 4rem;
   margin-top: 7px;
@@ -28,18 +29,18 @@ Profile Left Container
   font-weight: 500;
 }
 
-.profile-details-role {
+.profile-role {
   font-size: 4.5rem;
   font-weight: 500;
   margin: 2.5rem 0 4rem;
 }
 
-.profile-role-tagline {
+.profile-tagline {
   color: var(--clr-grey);
   font-size: 1.75rem;
 }
 
-.profile-role-tagline svg {
+.profile-tagline svg {
   color: var(--clr-primary);
   font-size: 2.5rem;
   margin-right: 0.75rem;
@@ -72,12 +73,52 @@ Profile Right Container
 */
 
 .profile-right {
-  flex-basis: 50%;
+  position: relative;
 }
 
 .profile-bg {
+  position: absolute;
   clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   background: var(--clr-primary);
   width: 100%;
   height: 100%;
+  top: 0;
+  right: 0;
+}
+
+.profile-img {
+  position: absolute;
+  bottom: 0;
+  left: -10px;
+}
+
+.profile-img img {
+  display: flex;
+  object-fit: cover;
+  width: 90%;
+  height: 90%;
+}
+
+@media (max-width: 992px) {
+  .profile-container {
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .profile-left-wrapper {
+    padding-right: max(8%, 3rem);
+  }
+  .profile-right {
+    min-height: 70vh;
+  }
+  .profile-img {
+    left: 50%;
+    transform: translateX(-50%);
+    height: 110%;
+    z-index: 100;
+    width: fit-content;
+  }
+  .profile-img img {
+    height: 100%;
+    width: 100%;
+  }
 }

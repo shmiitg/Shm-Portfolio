@@ -13,16 +13,16 @@ const AboutMe = () => {
     return (
         <div className="about-container">
             <div className="heading">About Me</div>
-            <div className="about-me-card">
-                <div className="about-me-content">
+            <div className="about-card">
+                <div className="about-content">
                     {about}
                 </div>
-                <div className="about-me-highlights">
+                <div className="about-highlights">
                     <div className="highlight-heading">Key highlights:</div>
                     {highLigts.map((highLight, index) => (
                         <div key={index} className="highlight">
                             <div className="highlight-circle"></div>
-                            <div key={index} className="about-me-content highlight-text">{highLight}</div>
+                            <div key={index} className="about-content highlight-text">{highLight}</div>
                         </div>
                     ))}
                 </div>

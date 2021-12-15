@@ -1,16 +1,17 @@
 .about-container {
   margin: 10rem auto 0;
-  max-width: 80rem;
+  max-width: 83rem;
+  padding: 0 3rem;
 }
 
-.about-me-card {
+.about-card {
   box-shadow: 0 0 15px -5px #1f2235;
   padding: 3.5rem;
   color: var(--clr-grey);
   background: var(--clr-white);
 }
 
-.about-me-content {
+.about-content {
   color: var(--clr-grey);
   line-height: 25px;
   letter-spacing: 0.2px;

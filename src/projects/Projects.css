@@ -1,13 +1,15 @@
 .proj-container {
-  margin: 10rem 1rem 0;
+  margin: 10rem auto 0;
+  max-width: 140rem;
+  padding: 0 max(4%, 3.5rem);
 }
 
 .proj-card {
-  margin: 0 2rem;
-  margin: 0 1.3vw;
+  margin: 0 auto;
   height: 100%;
   justify-content: center;
-  background-image: linear-gradient(315deg, #f5f9ff 0%, #fcfdff 74%);
+  background-image: linear-gradient(315deg, #f1f6ff 0%, #f9faff 60%);
+  max-width: 38rem;
 }
 
 .proj-card-wrapper {
@@ -54,6 +56,7 @@
 
 .slick-track {
   display: flex !important;
+  gap: 1.5rem !important;
 }
 
 .slick-slide {
@@ -65,5 +68,9 @@
 }
 
 .slick-dots {
-  bottom: -5rem !important;
+  bottom: -6rem !important;
+}
+
+.slick-dots li button:before {
+  font-size: 8px !important;
 }
