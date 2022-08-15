@@ -1,8 +1,8 @@
-import './Navbar.css';
-import logo from '../images/logo.png';
+import "./Navbar.css";
+import logo from "../images/logo.png";
 
 const Navbar = () => {
-    const navLinks = ['About me', 'Skills', 'Resume', 'Contact me']
+    const navLinks = ["About", "Skills", "Resume", "Contact me"];
 
     return (
         <div className="nav-container">
@@ -11,11 +11,13 @@ const Navbar = () => {
             </div>
             <div className="nav-links">
                 {navLinks.map((link, index) => (
-                    <div key={index} className="nav-link">{link}</div>
+                    <div key={index} className="nav-link">
+                        {link}
+                    </div>
                 ))}
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;

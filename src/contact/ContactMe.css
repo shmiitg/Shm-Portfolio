@@ -3,108 +3,115 @@ Contact Me Container
 */
 
 .contact-container {
-  margin-top: 10rem;
-  background: linear-gradient(to top, var(--clr-primary) 50%, #fff 50%);
+    margin-top: 10rem;
+    background: linear-gradient(to top, var(--clr-primary) 50%, #fff 50%);
 }
 
 .contact-wrapper {
-  max-width: 100rem;
-  margin: auto;
-  display: flex;
-  padding: 0 3rem;
-  align-items: center;
+    max-width: 100rem;
+    margin: auto;
+    display: flex;
+    padding: 0 3rem;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .contact-wrapper {
+        flex-direction: column;
+        gap: 8rem;
+    }
 }
 
 .contact-left,
 .contact-right {
-  background: var(--clr-white);
-  margin: 0 1rem;
-  box-shadow: 1px 1px 5px -2px rgba(0, 0, 0, 0.5);
+    background: var(--clr-white);
+    margin: 0 1rem;
+    box-shadow: 1px 1px 5px -2px rgba(0, 0, 0, 0.5);
 }
 
 .contact-left {
-  padding: 3rem;
-  flex-basis: 60%;
+    padding: 3rem;
+    flex-basis: 60%;
 }
 
 .contact-right {
-  padding: 2rem;
-  flex-basis: 40%;
+    padding: 2rem;
+    flex-basis: 40%;
 }
 
 .contact-text-top {
-  font-size: 3.25rem;
-  font-weight: 500;
-  color: var(--clr-grey);
-  margin-bottom: 2rem;
+    font-size: 3.25rem;
+    font-weight: 500;
+    color: var(--clr-grey);
+    margin-bottom: 2rem;
 }
 
 .contact-text-bottom {
-  color: var(--clr-grey);
-  font-size: 1.5rem;
-  line-height: 22px;
+    color: var(--clr-grey);
+    font-size: 1.5rem;
+    line-height: 22px;
 }
 
 .contact-text-bottom span {
-  color: #2577e2;
-  cursor: pointer;
+    color: #2577e2;
+    cursor: pointer;
 }
 
 .contact-text-bottom span:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .contact-text span {
-  color: var(--clr-primary);
+    color: var(--clr-primary);
 }
 
 .contact-form {
-  position: relative;
-  width: 100%;
-  padding: 0 1rem;
-  margin-bottom: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    position: relative;
+    width: 100%;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-form input {
-  font-family: inherit;
-  width: 100%;
-  margin: 1rem 0;
-  padding: 1.4rem;
-  letter-spacing: 0.5px;
-  border-radius: 3px;
-  font-size: 1.15rem;
-  border: none;
-  background: #f4f4f4;
+    font-family: inherit;
+    width: 100%;
+    margin: 1rem 0;
+    padding: 1.4rem;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    font-size: 1.15rem;
+    border: none;
+    background: #f4f4f4;
 }
 
 .contact-form input:focus {
-  outline: auto;
-  outline-color: #3b99fc;
+    outline: auto;
+    outline-color: #3b99fc;
 }
 
 .btn-submit {
-  background: var(--clr-primary);
-  color: var(--clr-white);
-  padding: 9px 25px;
-  margin-top: 3rem;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 1.5rem;
-  width: 100%;
-  border: none;
+    background: var(--clr-primary);
+    color: var(--clr-white);
+    padding: 9px 25px;
+    margin-top: 3rem;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    width: 100%;
+    border: none;
 }
 
 .btn-submit svg {
-  margin-right: 7px;
+    margin-right: 7px;
 }
 
 .thanks {
-  position: absolute;
-  top: 75%;
-  color: var(--clr-grey);
+    position: absolute;
+    top: 75%;
+    color: var(--clr-grey);
 }
 
 /* 
@@ -112,28 +119,28 @@ Collab Container
 */
 
 .collab-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 12rem;
-  background-image: linear-gradient(315deg, var(--clr-primary) 0%, #92ade8 74%);
-  padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12rem;
+    background-image: linear-gradient(315deg, var(--clr-primary) 0%, #92ade8 74%);
+    padding: 3rem;
 }
 
 .collab-heading {
-  font-size: 3.5rem;
-  font-weight: 500;
-  color: var(--clr-white);
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: var(--clr-white);
 }
 
 .collab-info {
-  margin: 1.5rem 0 2.5rem;
-  font-size: 1.5rem;
-  line-height: 18px;
-  color: var(--clr-white);
+    margin: 1.5rem 0 2.5rem;
+    font-size: 1.5rem;
+    line-height: 18px;
+    color: var(--clr-white);
 }
 
 .contact-btn {
-  background: var(--clr-white);
-  color: var(--clr-primary);
+    background: var(--clr-white);
+    color: var(--clr-primary);
 }
