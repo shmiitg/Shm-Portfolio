@@ -28,7 +28,8 @@ const ContactMe = ({ contactRef }) => {
                 <div className="contact-left">
                     <div className="contact-text-top">Any Suggestion or Queries?</div>
                     <div className="contact-text-bottom">
-                        Complete the form or email me at <span>shubhamank002@gmail.com</span>
+                        Complete the form or email me at{" "}
+                        <a href="mailto:shubhamank002@gmail.com">shubhamank002@gmail.com</a>
                     </div>
                 </div>
                 <div className="contact-right">

@@ -57,12 +57,12 @@ Contact Me Container
     line-height: 22px;
 }
 
-.contact-text-bottom span {
+.contact-text-bottom a {
     color: #2577e2;
     cursor: pointer;
 }
 
-.contact-text-bottom span:hover {
+.contact-text-bottom a:hover {
     text-decoration: underline;
 }
 
