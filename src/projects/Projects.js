@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Projects.css';
 import ProjectCard from './ProjectCard';
 import Slider from 'react-slick';
