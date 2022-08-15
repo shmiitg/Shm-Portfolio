@@ -15,10 +15,10 @@ Contact Me Container
     align-items: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .contact-wrapper {
         flex-direction: column;
-        gap: 8rem;
+        gap: 5rem;
     }
 }
 
@@ -37,6 +37,12 @@ Contact Me Container
 .contact-right {
     padding: 2rem;
     flex-basis: 40%;
+}
+
+@media (max-width: 768px) {
+    .contact-right {
+        min-width: 28rem;
+    }
 }
 
 .contact-text-top {

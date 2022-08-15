@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
-// import Typical from "react-typical";
+import MovingComponent from "react-moving-text";
 import { RiDoubleQuotesL } from "react-icons/ri";
 import me from "../images/me.svg";
 import "./Profile.css";
@@ -15,7 +15,10 @@ const Profile = () => {
                         Hi, I'm <span className="highlighted-text">Shubham</span>
                     </div>
                     <div className="profile-role">
-                        {/* <Typical loop={Infinity} steps={["Web Developer", 1000, "Competetive Coder", 1000, "ML Enthusiast", 1000]} /> */}
+                        <MovingComponent
+                            type="typewriter"
+                            dataText={["Web Developer", "DSA Enthusiast"]}
+                        />
                     </div>
                     <div className="profile-tagline">
                         <RiDoubleQuotesL />
@@ -25,7 +28,11 @@ const Profile = () => {
                         <Link to="/projects" className="btn">
                             Projects
                         </Link>
-                        <Link to="//shubham.pdf" className="btn btn-primary" download="Shubham shubham.pdf">
+                        <Link
+                            to="//shubham.pdf"
+                            className="btn btn-primary"
+                            download="Shubham shubham.pdf"
+                        >
                             Get Resume
                         </Link>
                     </div>
