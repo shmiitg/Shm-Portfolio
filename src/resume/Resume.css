@@ -1,12 +1,12 @@
 .resume-container {
-  margin: 10rem auto;
-  max-width: 90rem;
-  padding: 0 1rem;
+    margin: 5rem auto 0;
+    max-width: 90rem;
+    padding: 5rem 1rem 0;
 }
 
 .resume-main {
-  display: flex;
-  height: 42rem;
+    display: flex;
+    height: 42rem;
 }
 
 /* 
@@ -14,78 +14,78 @@ Resume Icons
 */
 
 .icon-container {
-  display: flex;
-  position: relative;
-  width: 29rem;
-  height: 100%;
-  box-shadow: 12px 0 9px -15px #1f2235;
+    display: flex;
+    position: relative;
+    width: 29rem;
+    height: 100%;
+    box-shadow: 12px 0 9px -15px #1f2235;
 }
 
 .icons {
-  position: absolute;
-  height: 100%;
-  width: 3.5rem;
-  background: #d4a418;
+    position: absolute;
+    height: 100%;
+    width: 3.5rem;
+    background: #d4a418;
 }
 
 .icon-points {
-  position: relative;
-  z-index: 2;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
 }
 
 .icon-point svg {
-  font-size: 2rem;
-  margin-right: 3rem;
-  color: #fff;
+    font-size: 2rem;
+    margin-right: 3rem;
+    color: #fff;
 }
 
 .icon-point {
-  z-index: 2;
-  width: fit-content;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 3.4rem;
-  margin: 12px 0;
-  padding: 0 8px;
-  border-radius: 0 20px 20px 0;
-  transition: width 0.4s ease;
+    z-index: 2;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.4rem;
+    margin: 12px 0;
+    padding: 0 8px;
+    border-radius: 0 20px 20px 0;
+    transition: width 0.4s ease;
 }
 
 .icon-point div {
-  cursor: pointer;
-  width: 2rem;
-  margin-right: 3rem;
+    cursor: pointer;
+    width: 2rem;
+    margin-right: 3rem;
 }
 
 .icon-point span {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .icon-selected {
-  width: 100%;
-  background: #d4a418;
-  color: var(--clr-white);
-  justify-content: initial;
-  animation: 0.4s all ease;
+    width: 100%;
+    background: #d4a418;
+    color: var(--clr-white);
+    justify-content: initial;
+    animation: 0.4s all ease;
 }
 
 @keyframes width-inc {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
 }
 
 .icon-point span {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 /* 
@@ -93,62 +93,62 @@ Resume Details
 */
 
 .resume-details {
-  overflow-y: hidden;
-  flex: 1;
+    overflow-y: hidden;
+    flex: 1;
 }
 
 .resume-icon-details {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 2rem 0 2rem 3rem;
-  justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2rem 0 2rem 3rem;
+    justify-content: center;
 }
 
 .resume-content {
-  display: flex;
-  flex-direction: column;
-  margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
 }
 
 .details-head {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .details-head-left {
-  color: var(--clr-primary);
-  font-size: 1.5rem;
-  letter-spacing: 0.1px;
-  margin-left: 2.1rem;
+    color: var(--clr-primary);
+    font-size: 1.5rem;
+    letter-spacing: 0.1px;
+    margin-left: 2.1rem;
 }
 
 .details-head-left:after {
-  position: absolute;
-  content: "";
-  background: var(--clr-primary);
-  width: 1.1rem;
-  height: 1.1rem;
-  border-radius: 50%;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+    position: absolute;
+    content: "";
+    background: var(--clr-primary);
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .details-head-right {
-  background: var(--clr-primary);
-  border-radius: 20px;
-  padding: 5px 10px;
-  color: var(--clr-white);
+    background: var(--clr-primary);
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: var(--clr-white);
 }
 
 .details-info {
-  margin-top: 1.5rem;
-  margin-left: 2.1rem;
+    margin-top: 1.5rem;
+    margin-left: 2.1rem;
 }
 
 .course {
-  line-height: 18px;
+    line-height: 18px;
 }

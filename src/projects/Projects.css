@@ -1,76 +1,76 @@
 .proj-container {
-  margin: 10rem auto 0;
-  max-width: 140rem;
-  padding: 0 max(4%, 3.5rem);
+    margin: 5rem auto 0;
+    max-width: 140rem;
+    padding: 5rem max(4%, 3.5rem) 0;
 }
 
 .proj-card {
-  margin: 0 auto;
-  height: 100%;
-  justify-content: center;
-  background-image: linear-gradient(315deg, #f1f6ff 0%, #f9faff 60%);
-  max-width: 38rem;
+    margin: 0 auto;
+    height: 100%;
+    justify-content: center;
+    background-image: linear-gradient(315deg, #f1f6ff 0%, #f9faff 60%);
+    max-width: 38rem;
 }
 
 .proj-card-wrapper {
-  height: inherit;
-  padding: 3.5rem;
-  padding: 2.7vw;
+    height: inherit;
+    padding: 3.5rem;
+    padding: 2.7vw;
 }
 
 .proj-name {
-  width: 100%;
-  font-size: 1.8rem;
-  text-align: center;
-  margin-bottom: 2rem;
-  color: var(--clr-primary);
+    width: 100%;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--clr-primary);
 }
 
 .proj-info {
-  color: var(--clr-grey);
-  line-height: 2rem;
+    color: var(--clr-grey);
+    line-height: 2rem;
 }
 
 .proj-tech-stack {
-  letter-spacing: 0.2px;
-  margin: 2.5rem 0 1.5rem;
-  color: #465662;
+    letter-spacing: 0.2px;
+    margin: 2.5rem 0 1.5rem;
+    color: #465662;
 }
 
 .proj-tools {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  align-items: center;
-  margin-bottom: 0.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 0.25rem;
 }
 
 .proj-tool {
-  height: fit-content;
-  background: var(--clr-primary);
-  color: var(--clr-white);
-  font-size: 1.15rem;
-  border-radius: 2px;
-  padding: 6px 10px;
+    height: fit-content;
+    background: var(--clr-primary);
+    color: var(--clr-white);
+    font-size: 1.15rem;
+    border-radius: 2px;
+    padding: 6px 10px;
 }
 
 .slick-track {
-  display: flex !important;
-  gap: 1.5rem !important;
+    display: flex !important;
+    gap: 1.5rem !important;
 }
 
 .slick-slide {
-  height: inherit !important;
+    height: inherit !important;
 }
 
 .slick-slide > div {
-  height: 100%;
+    height: 100%;
 }
 
 .slick-dots {
-  bottom: -6rem !important;
+    bottom: -6rem !important;
 }
 
 .slick-dots li button:before {
-  font-size: 8px !important;
+    font-size: 8px !important;
 }
