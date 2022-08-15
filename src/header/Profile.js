@@ -70,6 +70,7 @@ const Profile = ({ aboutRef, skillsRef, projectsRef, resumeRef, contactRef }) =>
                         </Link>
                         <a
                             href={resume}
+                            rel="noreferrer"
                             download="shm_resume"
                             target="_blank"
                             className="btn btn-primary"
