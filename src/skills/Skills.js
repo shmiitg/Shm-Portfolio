@@ -7,24 +7,24 @@ const Skills = ({ skillsRef }) => {
     const skills = [
         {
             img: <FaCode />,
-            name: "Web Development",
-            info: "Bring ideas to life and browser by building front-end from scratch, creating APIs and developing back-end system",
+            name: "Frontend Development",
+            info: "Likes to bring ideas to life and browser by building front-end from scratch",
             title: "Technologies",
-            tech: ["React.js", "JavaScript", "Express.js", "MongoDB", "Firebase", "MySQL"],
+            tech: ["React.js", "Next.js", "JavaScript", "TypeScript"],
         },
         {
             img: <FaDiceD6 />,
-            name: "Competetive Coding",
+            name: "Data Structures & Algorithms",
             info: "Enjoy solving data structures and alogrithmic problems and try to come with a proper algorithm to crack it",
             title: "Languages",
-            tech: ["C++", "JavaScript", "Python"],
+            tech: ["C++", "Python", "JavaScript"],
         },
         {
             img: <FaChartBar />,
-            name: "Machine Learning",
-            info: "In-depth knowledge of Machine learning alogrithms with adequate implementation skills and data visualisation ",
-            title: "Libraries and Open Source",
-            tech: ["Scikit-learn", "Keras", "Tensorflow", "OpenCV", "Matplotlib"],
+            name: "Backend Development",
+            info: "Develop the backend system by creating Rest APIs and managing the database",
+            title: "Technologies",
+            tech: ["Node.js", "Nest.js", "MongoDB", "Firebase", "MySQL"],
         },
     ];
 
