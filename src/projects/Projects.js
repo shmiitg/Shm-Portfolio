@@ -9,33 +9,33 @@ const Projects = ({ projectsRef }) => {
     const projects = [
         {
             name: "Interview Prep Website",
-            info: "An Interview Preparation Website inspired from InterviewBit, Leetcode and GeekforGeeks. The website has features like user authentication, code compiler, progress status, reading, writing, editing and deleting blogs, profile viewing and editing, problem solving, etc.",
-            tech: ["React.js", "React Hooks", "Express.js", "JWT", "JavaScript", "MongoDB", "CSS"],
+            link: "https://shm-it.herokuapp.com",
+            info: "An Interview Preparation Website inspired from GeekforGeeks. The website has features like user authentication, code compiler, progress status, reading, writing, editing and deleting blogs, profile viewing and editing, problem solving, etc.",
+            tech: ["React.js", "Express.js", "JWT", "JavaScript", "MongoDB", "CSS"],
+        },
+        {
+            name: "Portfolio Website",
+            link: "https://shm-portgen.herokuapp.com",
+            info: "The website allows users to generate multiple portfolio by filling required details. Users can view and edit their portfolios in the dashboard and signup/login using email, google or github.",
+            tech: ["React.js", "Express.js", "JavaScript", "MongoDB", "CSS"],
         },
         {
             name: "Ecommerce Website",
-            info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consectetur similique soluta libero ducimusdignissimos, autem repellat necessitatibus illum ullam culpa, ex nemo, distinctio inventore.",
+            link: "https://shm-ecommerce.herokuapp.com",
+            info: "An ecommerce website to showcase products and sell them. Users can add different products to their card, order them, see their past orders and check their order status. It allows user authentication using email and also has an admin panel to keep track of pending orders.",
             tech: ["Express.js", "JavaScript", "EJS", "Passport.js", "MongoDB", "CSS"],
         },
         {
-            name: "Amazon Price Alert",
-            info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus consectetur similique soluta libero ducimusdignissimos, autem repellat necessitatibus illum ullam culpa, ex nemo, distinctio inventore.",
-            tech: ["Chrome Extension", "Express.js", "Firebase", "SendGrid"],
+            name: "Slack Clone",
+            link: "https://shm-dilack.vercel.app",
+            info: "Chat application where users can chat in different channels just like slack with authentication using google. It allows only admins to create channels.",
+            tech: ["Next.js", "Firebase"],
         },
         {
             name: "Personal Portfolio",
+            link: "https://shm-portfolio.netlify.app",
             info: "My Personal Website to display my profile and showcase by projects and skills. This website also helps beginners by providing them explanation and free source code of my projects.",
             tech: ["React.js", "EmailJS", "JavaScript", "CSS"],
-        },
-        {
-            name: "Face Detection",
-            info: "A real time face detection model implemented in python using pretrained weights. The CNN architecture of the model is based on YOLOv3 (You Only Look Once, Version 3).",
-            tech: ["YOLOv3", "OpenCV", "Keras", "Numpy", "Pillow"],
-        },
-        {
-            name: "Cricket Analytica",
-            info: "Expoloratory Data Analysis of IPL Ball Wise data in json format. This project lead me to runner up position in the Cricket Analytica Hackathon conducted by Coding Club, IIT Guwahati.",
-            tech: ["EDA", "Python", "Matplotlib", "Seaborn", "Pandas", "Numpy"],
         },
     ];
 
@@ -81,6 +81,7 @@ const Projects = ({ projectsRef }) => {
                         <ProjectCard
                             key={index}
                             name={project.name}
+                            link={project.link}
                             info={project.info}
                             tech={project.tech}
                         />

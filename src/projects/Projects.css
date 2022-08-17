@@ -26,6 +26,10 @@
     color: var(--clr-primary);
 }
 
+.proj-name a {
+    color: inherit;
+}
+
 .proj-info {
     color: var(--clr-grey);
     line-height: 2rem;
