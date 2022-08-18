@@ -20,6 +20,9 @@ const ContactMe = ({ contactRef }) => {
         } catch (err) {
             setSent(1);
         }
+        setTimeout(() => {
+            setSent(0);
+        }, 5000);
     };
 
     return (
@@ -42,7 +45,7 @@ const ContactMe = ({ contactRef }) => {
                             Send
                         </button>
                         <div className="thanks">
-                            {sent === 2 && "Thank You..."}
+                            {sent === 2 && "Thanks, your email was sent successfully"}
                             {sent === 1 && "Failed... Try again"}
                         </div>
                     </form>
