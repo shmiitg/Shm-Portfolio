@@ -2,8 +2,12 @@ const TechSkills = () => {
     const skills = [
         { name: "Core Programming", tech: "C++, Python" },
         {
-            name: "Web Development",
-            tech: "React.js, JavaScript, TypeScript, Node.js, Express.js, Nest.js, Next.js",
+            name: "Frontend Development",
+            tech: "React.js, JavaScript, TypeScript, Next.js",
+        },
+        {
+            name: "Backend Development",
+            tech: "Node.js, Nest.js, MongoDB, MySQL, Firebase",
         },
         { name: "Database", tech: "MongoDB, Firebase, MySQL" },
         { name: "Machine Learning", tech: "Scikit-learn, Keras, OpenCV" },

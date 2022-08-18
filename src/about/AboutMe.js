@@ -5,7 +5,7 @@ const AboutMe = ({ aboutRef }) => {
         "Frontend Development",
         "Data Structures and Algorithms",
         "Backend Development",
-        "Machine learning and data visualisation",
+        "Machine learning and EDA",
         "Database management",
     ];
     const about =

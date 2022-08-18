@@ -120,5 +120,6 @@ Profile Right Container
     .profile-img img {
         height: 100%;
         width: 100%;
+        min-width: 35rem;
     }
 }

@@ -3,18 +3,18 @@ import React from "react";
 const Hackathons = () => {
     const hackathons = [
         {
-            name: "Code Peak (Open Source Hackathon)",
+            name: "Code Peak (Open Source)",
             date: "Dec 2021",
             info: "Achieved 1st rank among 1500+ candidates by contributing in various open source projects",
         },
         {
-            name: "Cricket Analytica (Exploratory Data Analysis)",
+            name: "Cricket Analytica (Explolatory Data Analysis)",
             date: "Nov 2021",
             info: "Runner up in Cricket Analytica organised by Coding Club, IIT Guwahati",
         },
         {
             name: "Cascade Cup (Machine Learning)",
-            date: "March 2022",
+            date: "Mar 2022",
             info: "Achieved 21th position in second round among 1500+ qualified participants",
         },
     ];

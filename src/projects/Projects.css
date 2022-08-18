@@ -14,8 +14,7 @@
 
 .proj-card-wrapper {
     height: inherit;
-    padding: 3.5rem;
-    padding: 2.7vw;
+    padding: max(2rem, 2.7vw);
 }
 
 .proj-name {

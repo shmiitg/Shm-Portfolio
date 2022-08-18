@@ -1,7 +1,7 @@
 .resume-container {
     margin: 5rem auto 0;
     max-width: 90rem;
-    padding: 5rem 1rem 0;
+    padding: 5rem max(4%, 3rem) 0;
 }
 
 .resume-main {
@@ -36,6 +36,10 @@ Resume Icons
     flex-direction: column;
     height: 100%;
     justify-content: center;
+}
+
+.icon-points-resp {
+    display: none;
 }
 
 .icon-point svg {
@@ -123,6 +127,7 @@ Resume Details
     font-size: 1.5rem;
     letter-spacing: 0.1px;
     margin-left: 2.1rem;
+    line-height: 20px;
 }
 
 .details-head-left:after {
@@ -142,13 +147,73 @@ Resume Details
     border-radius: 20px;
     padding: 5px 10px;
     color: var(--clr-white);
+    min-width: 8.1rem;
+    text-align: center;
 }
 
 .details-info {
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
     margin-left: 2.1rem;
+    line-height: 20px;
 }
 
 .course {
-    line-height: 18px;
+    line-height: 20px;
+}
+
+@media (max-width: 768px) {
+    .resume-main {
+        height: 48rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .resume-details {
+        height: 42rem;
+    }
+
+    .icon-container {
+        height: 4rem;
+        width: 100%;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .icon-points {
+        display: none;
+    }
+
+    .icon-points-resp {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .icon-point-resp {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding: 1rem;
+    }
+
+    .icon-point-resp svg {
+        color: #000;
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .icon-selected-resp {
+        background: #d4a418;
+    }
+
+    .icon-selected-resp svg {
+        color: #fff;
+    }
+
+    .resume-icon-details {
+        padding: 2rem 0;
+    }
 }

@@ -17,7 +17,7 @@ const Projects = ({ projectsRef }) => {
             name: "Portfolio Website",
             link: "https://shm-portgen.herokuapp.com",
             info: "The website allows users to generate multiple portfolio by filling required details. Users can view and edit their portfolios in the dashboard and signup/login using email, google or github.",
-            tech: ["React.js", "Express.js", "JavaScript", "MongoDB", "CSS"],
+            tech: ["React.js", "Express.js", "Passport.js", "JavaScript", "MongoDB", "CSS"],
         },
         {
             name: "Ecommerce Website",
@@ -29,13 +29,13 @@ const Projects = ({ projectsRef }) => {
             name: "Slack Clone",
             link: "https://shm-dilack.vercel.app",
             info: "Chat application where users can chat in different channels just like slack with authentication using google. It allows only admins to create channels.",
-            tech: ["Next.js", "Firebase"],
+            tech: ["Next.js", "Firebase", "CSS"],
         },
         {
             name: "Personal Portfolio",
             link: "https://shm-portfolio.netlify.app",
             info: "My Personal Website to display my profile and showcase by projects and skills. This website also helps beginners by providing them explanation and free source code of my projects.",
-            tech: ["React.js", "EmailJS", "JavaScript", "CSS"],
+            tech: ["React.js", "JavaScript", "CSS"],
         },
     ];
 

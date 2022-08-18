@@ -5,7 +5,7 @@ const Projects = () => {
         {
             name: "Interview Prep Website",
             date: "Oct 2021",
-            info: "Interview Preparation Website that can be to used to keep track of progress and crack interviews",
+            info: "Interview Preparation Website to keep track of progress and crack interviews",
             tech: "React.js, Express.js, JWT, MongoDB, CSS",
         },
         {

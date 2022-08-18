@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./Resume.css";
 import Education from "./Education";
 import Projects from "./Projects";
@@ -17,6 +17,7 @@ import {
 
 const Resume = ({ resumeRef }) => {
     const [indexSelected, setIndexSelected] = useState(0);
+    const resumeDetailsRef = useRef(null);
     const iconPoints = [
         { component: <Education />, icon: <FaGraduationCap />, iconValue: "Education" },
         { component: <Projects />, icon: <FaLaptopCode />, iconValue: "Projects" },
@@ -28,8 +29,7 @@ const Resume = ({ resumeRef }) => {
 
     const changeSelectedIcon = (idx) => {
         setIndexSelected(idx);
-        const element = document.getElementById("resume-details");
-        element.scroll({
+        resumeDetailsRef.current.scroll({
             top: idx * 420,
             behavior: "smooth",
         });
@@ -59,8 +59,24 @@ const Resume = ({ resumeRef }) => {
                             </div>
                         ))}
                     </div>
+                    <div className="icon-points-resp">
+                        {iconPoints.map((point, index) => (
+                            <div
+                                key={index}
+                                id={"icon-" + index}
+                                className={
+                                    indexSelected === index
+                                        ? "icon-point-resp icon-selected-resp"
+                                        : "icon-point-resp"
+                                }
+                                onClick={() => changeSelectedIcon(index)}
+                            >
+                                {point.icon}
+                            </div>
+                        ))}
+                    </div>
                 </div>
-                <div id="resume-details" className="resume-details">
+                <div ref={resumeDetailsRef} className="resume-details">
                     {iconPoints.map((point, index) => (
                         <div key={index} id={"det-" + (index + 1)} className="resume-icon-details">
                             {point.component}
