@@ -13,9 +13,9 @@ const Hackathons = () => {
             info: "Runner up in Cricket Analytica organised by Coding Club, IIT Guwahati",
         },
         {
-            name: "Cascade Cup (Machine Learning)",
-            date: "Mar 2022",
-            info: "Achieved 21th position in second round among 1500+ qualified participants",
+            name: "CodeJunk (Competetive Programming)",
+            date: "Aug 2022",
+            info: "Achieved 5th position among 4000+ candidates by solving 6/6 problems",
         },
     ];
 
