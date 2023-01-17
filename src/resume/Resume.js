@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import "./Resume.css";
 import Education from "./Education";
+import Interships from "./Interships";
 import Projects from "./Projects";
 import Hackathons from "./Hackathons";
 import Achievements from "./Achievements";
@@ -8,6 +9,7 @@ import TechSkills from "./TechSkills";
 import KeyCourses from "./KeyCourses";
 import {
     FaGraduationCap,
+    FaDev,
     FaLaptopCode,
     FaChartLine,
     FaHackerrank,
@@ -20,6 +22,7 @@ const Resume = ({ resumeRef }) => {
     const resumeDetailsRef = useRef(null);
     const iconPoints = [
         { component: <Education />, icon: <FaGraduationCap />, iconValue: "Education" },
+        { component: <Interships />, icon: <FaDev />, iconValue: "Internships" },
         { component: <Projects />, icon: <FaLaptopCode />, iconValue: "Projects" },
         { component: <TechSkills />, icon: <FaChartLine />, iconValue: "Technical Skills" },
         { component: <Hackathons />, icon: <FaHackerrank />, iconValue: "Hackathons" },
@@ -30,7 +33,7 @@ const Resume = ({ resumeRef }) => {
     const changeSelectedIcon = (idx) => {
         setIndexSelected(idx);
         resumeDetailsRef.current.scroll({
-            top: idx * 420,
+            top: idx * 450,
             behavior: "smooth",
         });
     };
