@@ -5,8 +5,14 @@ const Projects = () => {
         {
             name: "Interview Prep Website",
             date: "Oct 2021",
-            info: "Interview Preparation Website to keep track of progress and crack interviews",
+            info: "Keep track of your progress and crack interviews",
             tech: "React.js, Express.js, JWT, MongoDB, CSS",
+        },
+        {
+            name: "Project Manager",
+            date: "Aug 2022",
+            info: "Manage you projects and mark them with different status",
+            tech: "React.js, Express.js, MySQL, CSS",
         },
         {
             name: "Portfolio Generator",
@@ -17,7 +23,7 @@ const Projects = () => {
         {
             name: "Ecommerce Website",
             date: "July 2021",
-            info: "Interactive Ecommerce Website for showcasing and selling products",
+            info: "Checkout amazing products and buy them",
             tech: "Express.js, Passport.js, MongoDB, CSS",
         },
     ];

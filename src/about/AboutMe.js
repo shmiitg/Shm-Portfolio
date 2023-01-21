@@ -3,13 +3,14 @@ import "./AboutMe.css";
 const AboutMe = ({ aboutRef }) => {
     const highLigts = [
         "Frontend Development",
-        "Data Structures and Algorithms",
+        "Data Structures",
+        "Algorithms",
         "Backend Development",
-        "Machine learning and EDA",
         "Database management",
     ];
-    const about =
-        "A 4th year engineering student from Indian Institute of Technology, Guwahati passionate about coding. Started my coding journey in 2020 by learning C language. Over the past two years I have a explored a lot in the field of both Frontend and Backend Web Development by building mutiple projects and delpoying them. Also I practiced a lot of problems on Data Structures and Algorithms across multiple websites.";
+    const about = `A 4th year engineering student from Indian Institute of Technology, Guwahati passionate about coding.
+        Started my coding journey in 2020 by learning C language. Over the past two years I have a explored a lot in the field of both Frontend and Backend Web Development by building mutiple projects and delpoying them.
+        Also I practiced a lot of problems on Data Structures and Algorithms across multiple websites.`;
 
     return (
         <div className="about-container" ref={aboutRef}>

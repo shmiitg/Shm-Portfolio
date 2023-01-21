@@ -1,4 +1,6 @@
-const ProjectCard = ({ name, link, info, tech }) => {
+const ProjectCard = ({ name, title, link, info, tech, github }) => {
+    const openAnchor = "<a>";
+    const closeAnchor = "</a>";
     return (
         <div className="proj-card">
             <div className="proj-card-wrapper">
@@ -7,7 +9,8 @@ const ProjectCard = ({ name, link, info, tech }) => {
                         {name}
                     </a>
                 </div>
-                <div className="proj-info">{info}</div>
+                <h4 className="proj-title">{title}</h4>
+                <p className="proj-info">{info}</p>
                 <div className="proj-tech-stack">Tech Stack</div>
                 <div className="proj-tools">
                     {tech.map((t, index) => (
@@ -15,6 +18,11 @@ const ProjectCard = ({ name, link, info, tech }) => {
                             {t}
                         </div>
                     ))}
+                </div>
+                <div className="proj-github">
+                    <span>{openAnchor}</span>
+                    <a href={github}>{github}</a>
+                    <span>{closeAnchor}</span>
                 </div>
             </div>
         </div>

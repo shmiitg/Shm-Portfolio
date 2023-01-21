@@ -8,34 +8,44 @@ import "slick-carousel/slick/slick-theme.css";
 const Projects = ({ projectsRef }) => {
     const projects = [
         {
-            name: "Interview Prep Website",
-            link: "https://shm-it.herokuapp.com",
-            info: "An Interview Preparation Website inspired from GeekforGeeks. The website has features like user authentication, code compiler, progress status, reading, writing, editing and deleting blogs, profile viewing and editing, problem solving, etc.",
+            name: "Code Dunk",
+            title: "Interview Tracker Website",
+            link: "https://code-dunk.onrender.com",
+            info: "Keep track of your interview progress and crack them",
             tech: ["React.js", "Express.js", "JWT", "JavaScript", "MongoDB", "CSS"],
+            github: "https://github.com/shmiitg/code-dunk",
         },
         {
-            name: "Portfolio Website",
+            name: "Portgen",
+            title: "Portfolio Website",
             link: "https://shm-portgen.herokuapp.com",
-            info: "The website allows users to generate multiple portfolio by filling required details. Users can view and edit their portfolios in the dashboard and signup/login using email, google or github.",
+            info: "Generate multiple portfolio by filling required details",
             tech: ["React.js", "Express.js", "Passport.js", "JavaScript", "MongoDB", "CSS"],
+            github: "https://github.com/shmiitg/portgen",
         },
         {
-            name: "Ecommerce Website",
+            name: "Redstore",
+            title: "Ecommerce Website",
             link: "https://shm-ecommerce.herokuapp.com",
-            info: "An ecommerce website to showcase products and sell them. Users can add different products to their card, order them, see their past orders and check their order status. It allows user authentication using email and also has an admin panel to keep track of pending orders.",
+            info: "Check out amazing products and get them ordered to your address",
             tech: ["Express.js", "JavaScript", "EJS", "Passport.js", "MongoDB", "CSS"],
+            github: "https://github.com/shmiitg/redstore",
         },
         {
-            name: "Slack Clone",
+            name: "Dilack",
+            title: "Slack Clone",
             link: "https://shm-dilack.vercel.app",
-            info: "Chat application where users can chat in different channels just like slack with authentication using google. It allows only admins to create channels.",
+            info: "Chat in different channels just like slack and create channels.",
             tech: ["Next.js", "Firebase", "CSS"],
+            github: "https://github.com/shmiitg/dilack",
         },
         {
-            name: "Personal Portfolio",
+            name: "Shm Portfolio",
+            title: "Personal Portfolio",
             link: "https://shm-portfolio.netlify.app",
-            info: "My Personal Website to display my profile and showcase by projects and skills. This website also helps beginners by providing them explanation and free source code of my projects.",
+            info: "My Personal Website to display my profile and showcase by projects and skills",
             tech: ["React.js", "JavaScript", "CSS"],
+            github: "https://github.com/shmiitg/shm-portfolio",
         },
     ];
 
@@ -81,9 +91,11 @@ const Projects = ({ projectsRef }) => {
                         <ProjectCard
                             key={index}
                             name={project.name}
+                            title={project.title}
                             link={project.link}
                             info={project.info}
                             tech={project.tech}
+                            github={project.github}
                         />
                     ))}
                 </Slider>

@@ -14,15 +14,55 @@
 
 .proj-card-wrapper {
     height: inherit;
-    padding: max(2rem, 2.7vw);
+    padding: max(1.8rem, 2.1vw) max(2rem, 2.5vw);
+}
+
+.proj-card-main img {
+    max-width: 38rem;
+    position: absolute;
+    z-index: -10;
+    opacity: 0.25;
 }
 
 .proj-name {
     width: 100%;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 0.75rem;
     color: var(--clr-primary);
+}
+
+.proj-title {
+    font-weight: 400;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    letter-spacing: 0.2px;
+    color: #465662;
+}
+
+.proj-github {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.5rem;
+    letter-spacing: 0.2px;
+    color: #465662;
+    gap: 6px;
+}
+
+.proj-github span {
+    font-size: 1.5rem;
+}
+
+.proj-github a {
+    font-size: 1.4rem;
+    color: #4a4ab4;
+}
+
+.proj-github a:hover {
+    text-decoration: underline;
 }
 
 .proj-name a {
@@ -36,7 +76,7 @@
 
 .proj-tech-stack {
     letter-spacing: 0.2px;
-    margin: 2.5rem 0 1.5rem;
+    margin: 2rem 0 1.5rem;
     color: #465662;
 }
 

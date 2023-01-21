@@ -15,7 +15,8 @@ const KeyCourses = () => {
         {
             name: "Machine Learning",
             date: "2020-21",
-            info: "Deep Learning Specialization by deeplearning.ai, FAST TRACK TO ML by Coding Club IIT Guwahati",
+            info: `Deep Learning Specialization by deeplearning.ai,
+            FAST TRACK TO ML by Coding Club IIT Guwahati`,
         },
     ];
 
