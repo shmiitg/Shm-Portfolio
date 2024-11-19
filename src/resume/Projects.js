@@ -3,28 +3,22 @@ import "./Projects.css";
 const Projects = () => {
     const projects = [
         {
-            name: "Interview Prep Website",
+            name: "Vocabrain",
+            date: "June 2024",
+            info: "Improve your vocabulary by learning new words and idioms",
+            tech: "React.js, Express.js, JWT, MongoDB, CSS",
+        },
+        {
+            name: "Code Dunk",
             date: "Oct 2021",
             info: "Keep track of your progress and crack interviews",
             tech: "React.js, Express.js, JWT, MongoDB, CSS",
         },
         {
-            name: "Project Manager",
+            name: "TaskUp",
             date: "Aug 2022",
             info: "Manage you projects and mark them with different status",
             tech: "React.js, Express.js, MySQL, CSS",
-        },
-        {
-            name: "Portfolio Generator",
-            date: "Nov 2021",
-            info: "Generate amazing portfolio using the portfolio generator",
-            tech: "React.js, Express.js, MongoDB, CSS",
-        },
-        {
-            name: "Ecommerce Website",
-            date: "July 2021",
-            info: "Checkout amazing products and buy them",
-            tech: "Express.js, Passport.js, MongoDB, CSS",
         },
     ];
 

@@ -8,14 +8,14 @@ const Hackathons = () => {
             info: "Achieved 1st rank among 1500+ candidates by contributing in various open source projects",
         },
         {
-            name: "Cricket Analytica (Explolatory Data Analysis)",
+            name: "Cricket Analytica (Exploratory Data Analysis)",
             date: "Nov 2021",
             info: "Runner up in Cricket Analytica organised by Coding Club, IIT Guwahati",
         },
         {
             name: "CodeJunk (Competetive Programming)",
             date: "Aug 2022",
-            info: "Achieved 5th position among 4000+ candidates by solving 6/6 problems",
+            info: "Achieved 5th position among 4000+ candidates",
         },
     ];
 

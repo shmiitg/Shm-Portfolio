@@ -4,21 +4,15 @@ const Interships = () => {
     const internships = [
         {
             company: "Factly Media & Research",
-            date: "Ongoing *",
+            date: "June 2023",
             role: "Frontend Developer",
-            skills: "React.js, Next.js, Redux",
+            skills: "React.js, Redux",
         },
         {
             company: "Dzor Infotech Private Limited",
             date: "May 2022",
             role: "Frontend Developer",
             skills: "React.js",
-        },
-        {
-            company: "Ikanshy Innovations (Opc) Private Limited",
-            date: "July 2022",
-            role: "Backend Developer",
-            skills: "Nest.js, PostgreSQL",
         },
     ];
 

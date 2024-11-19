@@ -1,14 +1,14 @@
 const Achievements = () => {
     const achievemets = [
         {
-            name: "Competetive Programming",
+            name: "Competitive Programming",
             date: "2021",
             info: "Achieve maximum rating of 2051 on LeetCode and 1803 on CodeChef",
         },
         {
             name: "JEE Mains and Advanced",
             date: "2019",
-            info: "Cracked JEE Mains with 99+ percentile and JEE Advanced with a descent rank",
+            info: "Cracked JEE Mains with 99+ percentile and JEE Advanced",
         },
         {
             name: "Center for Basic Sciences Examination",

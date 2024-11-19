@@ -8,6 +8,14 @@ import "slick-carousel/slick/slick-theme.css";
 const Projects = ({ projectsRef }) => {
     const projects = [
         {
+            name: "Vocabrain",
+            title: "Vocabulary Builder",
+            link: "https://vocabrain.vercel.app",
+            info: "Improve your vocabulary by learning new words and idioms",
+            tech: ["React.js", "Express.js", "MongoDB", "CSS"],
+            github: "https://github.com/shmiitg/vocabrain",
+        },
+        {
             name: "Code Dunk",
             title: "Interview Tracker Website",
             link: "https://code-dunk.onrender.com",
@@ -38,14 +46,6 @@ const Projects = ({ projectsRef }) => {
             info: "Chat in different channels just like slack and create channels.",
             tech: ["Next.js", "Firebase", "CSS"],
             github: "https://github.com/shmiitg/dilack",
-        },
-        {
-            name: "Shm Portfolio",
-            title: "Personal Portfolio",
-            link: "https://shm-portfolio.netlify.app",
-            info: "My Personal Website to display my profile and showcase by projects and skills",
-            tech: ["React.js", "JavaScript", "CSS"],
-            github: "https://github.com/shmiitg/shm-portfolio",
         },
     ];
 
